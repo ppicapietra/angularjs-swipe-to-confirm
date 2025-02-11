@@ -13,13 +13,13 @@ bower install --save https://github.com/ppicapietra/angularjs-swipe-to-confirm.g
 Luego, inclúyelo en tu archivo **`index.html`**:
 
 ```html
-<script src="bower_components/ppica-swipe-to-confirm/dist/ppica-swipe-to-confirm.min.js"></script>
+<script src="bower_components/pswipe-to-confirm/dist/swipe-to-confirm.min.js"></script>
 ```
 
 Y agrégalo como dependencia en tu módulo de AngularJS:
 
 ```js
-angular.module('miApp', ['ppica.swipeToConfirm']);
+angular.module('miApp', ['ppica.pswipeToConfirm']);
 ```
 
 ---

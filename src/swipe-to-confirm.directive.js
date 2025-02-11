@@ -1,7 +1,7 @@
 ( function () {
   'use strict';
 
-  angular.module( 'picaSwipeToConfirm', [] )
+  angular.module( 'ppica.pswipeToConfirm', [] )
     .directive( 'pswipeToConfirm', function () {
       return {
         restrict: 'E',
