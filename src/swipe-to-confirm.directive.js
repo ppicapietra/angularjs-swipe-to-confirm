@@ -1,15 +1,15 @@
 ( function () {
   'use strict';
 
-  angular.module( 'picaSlideToConfirm', [] )
-    .directive( 'picaSlideToConfirm', function () {
+  angular.module( 'picaSwipeToConfirm', [] )
+    .directive( 'pswipeToConfirm', function () {
       return {
         restrict: 'E',
         scope: {
           onConfirm: '&',
-          confirmText: '@',
-          afterText: '@',
-          beforeText: '@',
+          actionText: '@',
+          movingText: '@',
+          resultText: '@',
           fasClass: '@?',
         },
         template: `
@@ -23,9 +23,9 @@
           </div>
         `,
         link: function ( scope, element ) {
-          scope.confirmText = scope.confirmText || 'Confirm';
-          scope.afterText = scope.afterText || 'Confirming...';
-          scope.beforeText = scope.beforeText || 'Slide to Confirm';
+          scope.actionText = scope.actionText || 'Slide to Confirm';
+          scope.movingText = scope.movingText || 'Confirming...';
+          scope.resultText = scope.resultText || 'Confirmed';
           scope.fasClass = scope.fasClass || null;
           let dragItem = element[ 0 ].querySelector( '.pswipe-drag-item' );
           let container = element[ 0 ].querySelector( '.pswipe-track-drag' );
