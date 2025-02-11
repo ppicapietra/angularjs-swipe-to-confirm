@@ -1,0 +1,22 @@
+{
+  "name": "ppica-swipe-confirmation",
+  "version": "1.0.0",
+  "description": "a swipe confirmation directive for AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swipe",
+    "confirm",
+    "directive"
+  ],
+  "author": "ppicapietra",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "pswipe-to-confirm",
+  "version": "1.0.0",
+  "description": "AngularJS directive for a 'Swipe to Confirm' button",
+  "main": [
+    "dist/swipe-to-confirm.min.js",
+    "dist/swipe-to-confirm.min.css"
+  ],
+  "authors": [
+    "ppicapietra"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0"
+  }
+}

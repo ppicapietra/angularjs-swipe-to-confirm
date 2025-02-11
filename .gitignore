@@ -1,0 +1,9 @@
+dist/
+node_modules/
+bower_components/
+.sass-cache/
+.DS_Store
+.idea/
+.vscode/
+.cursorignore
+.cursorrules
