@@ -15,10 +15,10 @@
         template: `
           <div class="pswipe-container">
             <div class="pswipe-track-drag animate" ng-class="{'active-track': scope.active}" ng-mousedown="dragStart($event)" ng-mousemove="drag($event)" ng-mouseup="dragEnd()">
-              <div class="pswipe-drag-item">${ fasClass ? `<i class="fas ${ fasClass }"></i>` : '>>' }</div>
-              <p class="pswipe-track-text pswipe-track-text--end">${ confirmText }</p>
-              <p class="pswipe-track-text pswipe-track-text--after">${ afterText }</p>
-              <p class="pswipe-track-text pswipe-track-text--before">${ beforeText }</p>
+              <div class="pswipe-drag-item">${ scope.fasClass ? `<i class="fas ${ scope.fasClass }"></i>` : '>>' }</div>
+              <p class="pswipe-track-text pswipe-track-text--end">${ scope.confirmText }</p>
+              <p class="pswipe-track-text pswipe-track-text--after">${ scope.afterText }</p>
+              <p class="pswipe-track-text pswipe-track-text--before">${ scope.beforeText }</p>
             </div>
           </div>
         `,
